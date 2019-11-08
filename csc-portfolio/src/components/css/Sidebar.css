@@ -1,0 +1,27 @@
+/* base style for navigation bar */
+#sidebar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* style for link items within */
+#sidebar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* style for hover interaction with items */
+#sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* style for current link */
+#sidebar a.active {
+    background-color: #4CAF;
+    color: white;
+}

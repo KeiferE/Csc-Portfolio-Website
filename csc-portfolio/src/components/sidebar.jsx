@@ -4,7 +4,7 @@ import { slide as Menu } from 'react-burger-menu';
 export default class Sidebar extends Component {
     render() {
         return (
-            <div>
+            <div id="sidebar">
                 <a className="menu-item" href="/">
                     This is a first test line
                 </a>
@@ -16,8 +16,6 @@ export default class Sidebar extends Component {
                 <a className="menu-item" href="/">
                     This is a third test line
                 </a>
-
-                <p>testtttt</p>
             </div>
         );
     }
