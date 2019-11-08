@@ -6,13 +6,21 @@
 
 /* style for link items within */
 #sidebar a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
+
+/* style for icon image */
+#sidebar .icon {
+    float: left;
+    color:red;
+}
+
+/* style for center item 
 
 /* style for hover interaction with items */
 #sidebar a:hover {

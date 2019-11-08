@@ -5,8 +5,8 @@ export default class Sidebar extends Component {
     render() {
         return (
             <div id="sidebar">
-                <a className="menu-item" href="/">
-                    This is a first test line
+                <a class="icon" href="/">
+                    This is a icon test line
                 </a>
 
                 <a className="menu-item" href="/">
