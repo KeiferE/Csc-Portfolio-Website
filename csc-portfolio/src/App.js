@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import headshot from './headshot.jpg';
 import './App.css';
 import Sidebar from './components/sidebar';
 import './components/css/Sidebar.css';
@@ -33,10 +34,13 @@ class App extends Component {
        <div id="container-wrap">
         <Sidebar />
         <div id ="page-wrap">
-          <h1> Check out that awesome sidebar</h1>
-          <p>This will be the home comp</p>
-          <p>This will be the about comp</p>
-          <p>This will projects comp</p>
+          <h1 className="App-name"> Keifer Edelmayer</h1>
+          <img src={headshot} className="App-headshot" />
+          <h1 className="App-projects">Projects</h1>
+          <h1 className="App-about">About</h1>
+          <p className="App-slogan">Hi, I'm Keifer. I like to create, solve problems, and go hiking</p>
+          <div className="App-longdash"></div>
+          <p className="App-title">Developer</p>
           <p>This will be the contact comp</p>
         </div>
        </div>

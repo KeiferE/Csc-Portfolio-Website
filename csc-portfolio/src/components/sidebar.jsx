@@ -6,15 +6,21 @@ export default class Sidebar extends Component {
         return (
             <div id="sidebar">
                 <a class="icon" href="/">
-                    This is a icon test line
+                    Icon content unit
                 </a>
-
-                <a className="menu-item" href="/">
-                    This is a second test line
+                <div id="middle">
+                <a className="center-content" href="/">
+                    Home
                 </a>
-
+                <a className="center-content" href="/">
+                    About
+                </a>
+                <a className="center-content" href="/">
+                    Projects
+                </a>
+                </div>
                 <a className="menu-item" href="/">
-                    This is a third test line
+                    Contact
                 </a>
             </div>
         );

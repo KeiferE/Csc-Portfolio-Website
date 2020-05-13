@@ -1,12 +1,27 @@
+#middle {
+    overflow: hidden;
+    background-color: #333;
+    justify-content: center;
+}
+
+#middle a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 /* base style for navigation bar */
 #sidebar {
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* style for link items within */
 #sidebar a {
-    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -16,11 +31,17 @@
 
 /* style for icon image */
 #sidebar .icon {
-    float: left;
+    
     color:red;
 }
 
-/* style for center item 
+/* style for center content items */
+#sidebar .center-content {
+    flex-grow: 2;
+    color:blue;
+    
+  
+} 
 
 /* style for hover interaction with items */
 #sidebar a:hover {

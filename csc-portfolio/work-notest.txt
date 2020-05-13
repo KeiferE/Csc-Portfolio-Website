@@ -1,0 +1,12 @@
+Nov 16th 2019:
+-Trying to center some items within header bar, while having others remain on left and right. Center item if more than one does not look center. FIX
+
+MAy 14 2020:
+-Inspiration for new theme, going in new direction. 
+TODO:
+    -Finish positioning everything
+    -Find a Font that works
+    -Look into icons and links to linkedin, and github
+    -Find pictures and info for other projects
+    -Build specific pages
+    -Get transitions working
