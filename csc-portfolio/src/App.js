@@ -31,7 +31,16 @@ class App extends Component {
     return (
       
       <div>
-        <h1>Hello world</h1>
+        <nav>
+          <li>Home</li>
+          <li>Projects</li>
+          <li>work</li>
+          <li>contact</li>
+        </nav>
+        <div>home component</div>
+        <div>work experience</div>
+        <div>projects page</div>
+        <div>contact</div>
       </div>
     )
   }
