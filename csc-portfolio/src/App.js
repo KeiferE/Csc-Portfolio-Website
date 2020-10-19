@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import headshot from './headshot.jpg';
 import './App.css';
+import { FixedNav, Home, CardRack, Contact } from './components/'
 // import Sidebar from './components/sidebar';
 // import './components/css/Sidebar.css';
 
@@ -31,16 +32,11 @@ class App extends Component {
     return (
       
       <div>
-        <nav>
-          <li>Home</li>
-          <li>Projects</li>
-          <li>work</li>
-          <li>contact</li>
-        </nav>
-        <div>home component</div>
-        <div>work experience</div>
-        <div>projects page</div>
-        <div>contact</div>
+        <FixedNav/>
+        <Home/>
+        <CardRack/>
+        <CardRack/>
+        <Contact/>
       </div>
     )
   }
