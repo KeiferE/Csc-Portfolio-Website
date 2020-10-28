@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // import headshot from './headshot.jpg';
 import './App.css';
 import { FixedNav, Home, CardRack, Contact } from './components/'
+import { Button } from '@chakra-ui/core'
 // import Sidebar from './components/sidebar';
 // import './components/css/Sidebar.css';
 
@@ -30,14 +31,14 @@ import { FixedNav, Home, CardRack, Contact } from './components/'
 class App extends Component {
   render() {
     return (
-      
-      <div>
+      <>  
         <FixedNav/>
         <Home/>
         <CardRack/>
         <CardRack/>
         <Contact/>
-      </div>
+      </>
+      
     )
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button } from '@chakra-ui/core'
 
 export default class Contact extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class Contact extends Component {
           <p>email</p>
           <h1>linkedin icon github icon</h1>
         </div>
+        <Button>Test</Button>
       </div>
     );
   }
