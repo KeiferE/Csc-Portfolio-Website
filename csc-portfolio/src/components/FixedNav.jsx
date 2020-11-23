@@ -14,7 +14,7 @@ export default class FixedNav extends Component {
         <Flex>
           <Box m={10}>Projects</Box>
           <Box m={10}>Work</Box>
-          <Box m={10}>Contact</Box>
+          <Box m={10}>Contacts</Box>
         </Flex>
       </Flex>
     );
