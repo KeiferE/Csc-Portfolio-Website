@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 // import logo from './logo.svg';
 // import headshot from './headshot.jpg';
-import './App.css';
-import { FixedNav, Home, CardRack, Contact } from './components/'
-import { Button } from '@chakra-ui/core'
+import "./App.css";
+import { FixedNav, Home, CardRack, Contact } from "./components/";
+import { Button, Flex } from "@chakra-ui/core";
 // import Sidebar from './components/sidebar';
 // import './components/css/Sidebar.css';
 
@@ -31,15 +31,16 @@ import { Button } from '@chakra-ui/core'
 class App extends Component {
   render() {
     return (
-      <>  
-        <FixedNav/>
-        <Home/>
-        <CardRack/>
-        <CardRack/>
-        <Contact/>
+      <>
+        <Flex flexDirection="column">
+          <FixedNav />
+          <Home />
+          <CardRack />
+          <CardRack />
+          <Contact />
+        </Flex>
       </>
-      
-    )
+    );
   }
 }
 

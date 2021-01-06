@@ -11,7 +11,7 @@ export default class FixedNav extends Component {
         <Flex>
           <Heading>Home</Heading>
         </Flex>
-        <Flex>
+        <Flex flexDirection="row">
           <Box m={10}>Projects</Box>
           <Box m={10}>Work</Box>
           <Box m={10}>Contacts</Box>
